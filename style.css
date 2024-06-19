@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+.top-section {
+    background-color: #202938;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px; 
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.tag-line {
+    color: white; 
+}
+
+.section-two {
+    display: flex; 
+    flex-direction: column;
+}
+
+.title-two {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.small-image {
+    display: flex; 
+    justify-self: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-text {
+    display: flex; 
+    align-self: center;
+    justify-self: center;
+    gap: 20px;
+}
