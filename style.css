@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 ul {
@@ -13,63 +14,200 @@ a {
 }
 
 .top-section {
-    background-color: #202938;
+    background-color: #1F2937;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
 .header {
     display: flex;
 }
 
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sign-up-button {
+    border: 0px;
+    border-style: none;
+}
+
 .lower-header {
     display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 5%;
 }
 
 .logo {
     display: flex; 
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #F9FaF8;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .header-links {
     display: flex;
     gap: 15px; 
     margin-left: auto;
-    padding-right: 20px;
+    padding-right: 7%;
 }
 
 .tag-line {
     color: white; 
+    width: 30%;
+}
+
+.image-holder {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    height: 200px;
+    width: 100px;
+    background-color: grey;
+    margin: 10px; 
+    width: 50%;
 }
 
 .section-two {
     display: flex; 
     flex-direction: column;
+    padding-left: 14%;
+    justify-content: space-around;
 }
 
 .title-two {
     display: flex;
     align-self: center;
     justify-self: center;
+    padding-top: 1%;
+    font-weight: 900;
+    font-size: 40px;
 }
 
 .small-image {
     display: flex; 
-    justify-self: center;
-    justify-content: center;
-    gap: 20px;
+    flex-shrink: 3;
+    flex-grow: 3;
+    gap: 15%;
+    
+}
+
+.stamp {
+    margin-right: auto;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: blue;
+    height: 140px;
+    width: 140px;
+    flex-grow: 6;
+    flex-shrink: 6;
 }
 
 .image-text {
     display: flex; 
-    align-self: center;
-    justify-self: center;
-    gap: 20px;
+    gap: 15%;
+    flex-shrink: 3;
+    flex-grow: 3;
+    padding-left: 70px;
 }
 
+.annotations {
+    max-width: 140px;
+    flex-grow: 6;
+    flex-shrink: 6;
+}
+
+
 .intro {
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 10px;
+}
+
+.section-three {
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.intro-full {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #E5E7EB;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.quote {
+    max-width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 800;
+    align-items: end;
+    justify-self: flex-end;
+    margin-left: auto;
+    padding-right: 26%
+}
+
+.footer {
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    background-color: #1F2937;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.disclaimer {
+    display: flex;
+    color: white;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.signup-banner {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    gap: 5%;
+    width: 45%;
+    padding: 3%;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+.bottom-sign-up-button {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
 }
